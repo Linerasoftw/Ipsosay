@@ -1,0 +1,92 @@
+body {
+   background: #20253f;
+}
+
+.container {
+   margin: 100px auto;
+   max-width: 400px;
+   padding: 20px;
+   border: 1px solid #1E90FF;
+   border-radius: 5px;
+   box-shadow: 0px 0px 10px rgb(0, 191, 255, 0.2);
+}
+
+.logo {
+   display: block;
+   align-items: center;
+   text-align: center;
+   margin-bottom: 20px;
+}
+.logo i {
+   font-size: 3rem;
+   margin-right: 10px;
+   color: #1E90FF;
+}
+
+h1 {
+   color: #fff;
+   font-size: 2rem;
+}
+.login-form {
+   display: block;
+   text-align: center;
+}
+
+.login-form input {
+   display: block;
+   align-content: center;
+   width: 90%;
+   padding: 10px;
+   margin-bottom: 20px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   color: #20253f;
+}
+
+.login-form input:focus {
+   outline: none;
+   border: 3px solid #1E90FF;
+   box-shadow: 0px 0px 10px rgb(0, 191, 255, 0.2);
+   
+}
+.login-form button {
+   background-color: #1E90FF;
+   color: #fff;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 16px;
+}
+
+.login-form button:focus {
+   outline: none;
+   background-color: #20253f;
+   border: 3px solid #1E90FF;
+   color: #fff;
+   
+}
+.login-form a {
+   text-decoration: none;
+   color: #007bff;
+   margin: 10px;
+}
+
+.create-account {
+   margin-top: 30px;
+   font-size: 16px;
+   color: #333;
+   text-align: center;
+}
+.create-account p {
+   color: #fff;
+}
+
+.create-account a {
+   color: #1E90FF;
+   text-decoration: none;
+}
+
+.login-form a:hover {
+   text-decoration: underline;
+}
